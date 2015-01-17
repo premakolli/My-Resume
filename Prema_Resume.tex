@@ -1,0 +1,124 @@
+\documentclass[margin,line,10.5pt]{res}
+
+\newcommand{\tab}{\hspace*{2em}}
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\voffset=-0.2in
+\textwidth=6.0in
+\textheight=11in
+\itemsep=0in
+\parsep=0in
+\usepackage{url}
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+
+\begin{document}
+
+\begin{tabular}{@{}p{4.3in}p{4in}}
+{\bf \Large Premadurga Kolli}  &   \\
+{\it Mobile:}    469-995-1263 & {\it Linkedin :} \hspace{0.01in}\url{www.linkedin.com/in/premakolli}   \\
+{\it E-mail:}  premak@live.com &  \hspace{0.12in}{\it Github \hspace{0.002in}:}  \hspace{0.05in}\url{https://github.com/premakolli} \\
+\end{tabular}
+\begin{resume}
+
+\section{\sc Education}
+
+\begin{tabular}{@{}p{4.3in}p{4in}}
+{\bf Stony Brook University (SUNY)}, New York  &   \hspace{0.8cm} {\bf CGPA : 3.83/4.0}\\
+Master of Science in Computer Science & \hspace{-1.1cm}Jan 2014 - May 2015 (Expected)   \\
+\rule{0pt}{3ex}{\bf PESIT}, Bangalore &  \hspace{0.6cm} {\bf CGPA : 8.33/10.0} \\
+Bachelor of Technology in Computer Science & \hspace{0.5cm} Aug 2005 - May 2009
+\end{tabular}
+
+\vspace{-.15cm}
+
+\section{\sc Professional Experience}
+{\bf Microsoft India Pvt. Ltd.} \hspace{2.6in} {\bf Experience : 4.5 years}
+\vspace{-.8cm}
+
+{\bf Technical Lead\hspace{8.9cm}}   \hfill Feb 2012 - Dec 2012\\
+\vspace{-.4cm}
+\begin{list2}
+\item Led a team of 15 SQL Server Support Engineers and served as their escalation point for all technical issues.
+\item Wrote efficient internal tools/scripts to automate troubleshooting and analysis of SQL related issues.
+\end{list2}
+\vspace{-.2cm}
+{\bf SQL Server Product Engineer \hspace{5.9cm}}  \hfill Oct 2009 - Feb 2012 \\
+\vspace{-.4cm}
+\begin{list2}
+\item Handled business-critical operations related to SQL Server technologies like data recovery, performance, replication, performance tuning, clustering issues, disaster recovery, etc. 
+\item Experienced in taking about 300+ interviews and hired about 15+ candidates.
+\end{list2}
+\vspace{-.2cm}
+{\bf Intern \hspace{10.5cm}}   \hfill Aug 2008 - Oct 2009 
+\vspace{-.4cm}
+\begin{list2}
+\item Trained on Microsoft SQL Server along with Windows, Exchange Server and Active Directory.
+\end{list2}
+
+\vspace{-.15cm}
+
+\section{\sc Research Projects}
+
+{\bf Efficient Cache-Oblivious Parallel Algorithms \hfill Languages : Cilk Plus}\\ 
+Improved the span of 4 algorithms (matrix multiplication, floyd-warshall, viterbi and protein accordion folding) by balancing the trade-off between space and cache-complexity. Paper under review.
+
+\vspace{-.15cm}
+
+\section{\sc Graduate Projects}
+
+{\bf Online Fraud Detection in Review Data\hfill Languages : Python, Matlab}\\ 
+We exploited the network effect among reviewers and products for detecting fake reviews for Yelp challenge dataset and Apple iTunes dataset. 
+
+\vspace{-.08cm}
+
+{\bf Authorship Attribution using Graph-based Techniques\hfill Languages : Java} \\ 
+We exploited stylistic elements in syntactic structure of NY Times articles for building complete models of each author's style to distinguish between them using machine learning techniques. 
+
+\vspace{-.08cm}
+
+{\bf Pathology Analytical Imaging Portal on Hadoop \hfill Languages : Java, JSP}\\ 
+In this project, we developed a web application which runs on Hadoop cluster and it supports spatial queries on large images stored in MongoDB, a noSQL database.
+
+\vspace{-.08cm}
+
+{\bf Early Prediction of IMDB Ratings of Hollywood Movies\hfill Languages : Java}\\
+We considered the writing style (NLP) of the movie script and also the external factors such as star rating, budget etc. for predicting the IMDB user rating before it's release. Sentiment Analysis of movie reviews was also done to enhance this project.
+
+\vspace{-.08cm}
+
+{\bf Search in PACMAN and Sudoku Solver\hfill Languages : Python}\\
+We implemented search algorithms for PACMAN - DFS, BFS, UCS, A star with heuristics and also CSP Problems like Sudoku backtracking, MRV heuristic, forward checking and arc consistency. 
+
+\vspace{-.08cm}
+
+{\bf Predicting the Price of Art at Auction \hfill Languages : Python}\\ 
+We predicted the price of art at Sotheby's/Christie's auction using data science techniques. We built linear regression, k-nearest neighbor regression and decision tree regression models. To further enhance these models, we extracted image features for the paintings using openCV.
+
+\vspace{-.2cm}
+\section{\sc Skills} 
+ {\bf Languages} {\tab}\ \ \ \ \ \ \ \  Java, Python, Matlab, C++, R, Cilk Plus, Javascript\\
+ {\bf Technologies} {\tab}\ \ \ \ \  Microsoft SQL Server, Mysql, MongoDB, Hadoop, LaTeX\\
+ {\bf Interest Areas} {\tab}\ \  Algorithms, Machine Learning, Data Mining, Data Science, NLP, AI  \\
+\vspace{-.51cm}
+\section{\sc Honors and Awards} 
+\begin{list2}
+\item Received ACE (Architect of Excellence) award twice as a Product Engineer in Microsoft.
+\item Won several Spot Recognition awards in Microsoft.
+\item Secured 4th rank in B.Tech Computer Science (PESIT) with 97.5 percentile.
+\item Data Science Specialist with Coursera certification in 9 courses spanning the field.
+\end{list2}
+
+\end{resume}
+\end{document}
